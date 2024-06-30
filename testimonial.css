@@ -4,10 +4,10 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
-  body {
+body {
     background-color: #353536;
   }
-  section{
+section{
     /* background-color: yellow; */
     width: 100vw;
     max-width: 1500px;
@@ -32,7 +32,7 @@ section >h1{
     font-size: 20px;
    
 }
-  .wrapper {
+.wrapper {
     background-color: #ffffff;
     position: absolute;
     width: 80vw;
@@ -44,8 +44,9 @@ section >h1{
     top: 50%;
     box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
     display: flex;
+    -webkit-box-reflect: below 30px linear-gradient(transparent 70%,#0009);
   }
-  .testimonial-container {
+.testimonial-container {
     width: 85%;
     height: 100%;
     position: relative;
