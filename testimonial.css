@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #353536;
+  }
+  section{
+    /* background-color: yellow; */
+    width: 100vw;
+    max-width: 1500px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+section >h1{
+    /* background-color: red; */
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#stars i{
+    color: #ffd43b;
+    font-size: 20px;
+   
+}
+  .wrapper {
+    background-color: #ffffff;
+    position: absolute;
+    width: 80vw;
+    max-width: 41em;
+    min-height: 25em;
+    border-radius: 0.6em;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+    display: flex;
+  }
+  .testimonial-container {
+    width: 85%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 1.8em 1.2em;
+  }
+  .wrapper:hover{
+    background: linear-gradient(to top, #bdc3c7,#627581, #2c3e50);
+  }
+  .wrapper button {
+    font-size: 1.8em;
+    height: 2.2em;
+    width: 2.2em;
+    background-color: #ffffff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: none;
+    color: #0a69ed;
+    box-shadow: 0 0 1em rgba(1, 17, 39, 0.25);
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .wrapper button:active{
+    color: white;
+  }
+  button#next {
+    right: -1.1em;
+  }
+  button#next:active{
+    background: #0a69ed;
+  }
+  button#prev:active{
+    background: #0a69ed;
+  }
+  button#prev {
+    left: -1.1em;
+  }
+  .testimonial-container p {
+    color: #8c8c90;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+  }
+.wrapper:hover p{
+    color: white;
+  }
+  .testimonial-container img {
+    display: block;
+    margin: 1.8em auto 1.25em auto;
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    padding: 5px;
+    border: 2px solid;
+
+
+  }
+  .testimonial-container h3 {
+    color: #2d3d67;
+    font-size: 1em;
+    text-align: center;
+  }
+  .testimonial-container h6 {
+    color: #204cc7;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    text-align: center;
+  }
+  @media screen and (max-width: 650px) {
+    .wrapper {
+      font-size: 14px;
+    }
+  }
